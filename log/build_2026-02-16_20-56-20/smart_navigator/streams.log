@@ -1,0 +1,49 @@
+[0.533s] Invoking command in '/home/jeagerboob/smart_navigator_ws/src/smart_navigator': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/jeagerboob/smart_navigator_ws/build/smart_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_navigator build --build-base /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build install --record /home/jeagerboob/smart_navigator_ws/build/smart_navigator/install.log --single-version-externally-managed install_data
+[0.720s] running egg_info
+[0.720s] creating ../../build/smart_navigator/smart_navigator.egg-info
+[0.720s] writing ../../build/smart_navigator/smart_navigator.egg-info/PKG-INFO
+[0.721s] writing dependency_links to ../../build/smart_navigator/smart_navigator.egg-info/dependency_links.txt
+[0.721s] writing entry points to ../../build/smart_navigator/smart_navigator.egg-info/entry_points.txt
+[0.721s] writing requirements to ../../build/smart_navigator/smart_navigator.egg-info/requires.txt
+[0.721s] writing top-level names to ../../build/smart_navigator/smart_navigator.egg-info/top_level.txt
+[0.721s] writing manifest file '../../build/smart_navigator/smart_navigator.egg-info/SOURCES.txt'
+[0.722s] reading manifest file '../../build/smart_navigator/smart_navigator.egg-info/SOURCES.txt'
+[0.723s] writing manifest file '../../build/smart_navigator/smart_navigator.egg-info/SOURCES.txt'
+[0.723s] running build
+[0.723s] running build_py
+[0.723s] creating /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build
+[0.723s] creating /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib
+[0.723s] creating /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+[0.723s] copying smart_navigator/input_node.py -> /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+[0.723s] copying smart_navigator/__init__.py -> /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+[0.723s] copying smart_navigator/navigator_node.py -> /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+[0.723s] copying smart_navigator/decision_node.py -> /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+[0.723s] running install
+[0.724s] running install_lib
+[0.724s] creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+[0.724s] copying /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator/input_node.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+[0.724s] copying /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator/__init__.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+[0.724s] copying /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator/navigator_node.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+[0.725s] copying /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator/decision_node.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+[0.725s] byte-compiling /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator/input_node.py to input_node.cpython-310.pyc
+[0.725s] byte-compiling /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator/__init__.py to __init__.cpython-310.pyc
+[0.726s] byte-compiling /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator/navigator_node.py to navigator_node.cpython-310.pyc
+[0.726s] byte-compiling /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator/decision_node.py to decision_node.cpython-310.pyc
+[0.727s] running install_data
+[0.727s] creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/ament_index
+[0.727s] creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/ament_index/resource_index
+[0.727s] creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/ament_index/resource_index/packages
+[0.727s] copying resource/smart_navigator -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/ament_index/resource_index/packages
+[0.727s] copying package.xml -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator
+[0.727s] creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator/launch
+[0.727s] copying launch/smart_system_launch.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator/launch
+[0.727s] creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator/data
+[0.727s] copying data/dataset.csv -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator/data
+[0.727s] running install_egg_info
+[0.729s] Copying ../../build/smart_navigator/smart_navigator.egg-info to /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator-0.1.0-py3.10.egg-info
+[0.730s] running install_scripts
+[0.746s] Installing decision_node script to /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/smart_navigator
+[0.747s] Installing input_node script to /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/smart_navigator
+[0.747s] Installing navigator_node script to /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/smart_navigator
+[0.747s] writing list of installed files to '/home/jeagerboob/smart_navigator_ws/build/smart_navigator/install.log'
+[0.778s] Invoked command in '/home/jeagerboob/smart_navigator_ws/src/smart_navigator' returned '0': BYOBU_DATE=%Y-%m-%d PYTHONPATH=/home/jeagerboob/smart_navigator_ws/build/smart_navigator/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/smart_navigator build --build-base /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build install --record /home/jeagerboob/smart_navigator_ws/build/smart_navigator/install.log --single-version-externally-managed install_data

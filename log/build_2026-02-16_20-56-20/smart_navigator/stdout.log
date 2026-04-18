@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/smart_navigator/smart_navigator.egg-info
+writing ../../build/smart_navigator/smart_navigator.egg-info/PKG-INFO
+writing dependency_links to ../../build/smart_navigator/smart_navigator.egg-info/dependency_links.txt
+writing entry points to ../../build/smart_navigator/smart_navigator.egg-info/entry_points.txt
+writing requirements to ../../build/smart_navigator/smart_navigator.egg-info/requires.txt
+writing top-level names to ../../build/smart_navigator/smart_navigator.egg-info/top_level.txt
+writing manifest file '../../build/smart_navigator/smart_navigator.egg-info/SOURCES.txt'
+reading manifest file '../../build/smart_navigator/smart_navigator.egg-info/SOURCES.txt'
+writing manifest file '../../build/smart_navigator/smart_navigator.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build
+creating /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib
+creating /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+copying smart_navigator/input_node.py -> /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+copying smart_navigator/__init__.py -> /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+copying smart_navigator/navigator_node.py -> /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+copying smart_navigator/decision_node.py -> /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator
+running install
+running install_lib
+creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+copying /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator/input_node.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+copying /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator/__init__.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+copying /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator/navigator_node.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+copying /home/jeagerboob/smart_navigator_ws/build/smart_navigator/build/lib/smart_navigator/decision_node.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator
+byte-compiling /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator/input_node.py to input_node.cpython-310.pyc
+byte-compiling /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator/navigator_node.py to navigator_node.cpython-310.pyc
+byte-compiling /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator/decision_node.py to decision_node.cpython-310.pyc
+running install_data
+creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/ament_index
+creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/ament_index/resource_index
+creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/ament_index/resource_index/packages
+copying resource/smart_navigator -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/ament_index/resource_index/packages
+copying package.xml -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator
+creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator/launch
+copying launch/smart_system_launch.py -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator/launch
+creating /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator/data
+copying data/dataset.csv -> /home/jeagerboob/smart_navigator_ws/install/smart_navigator/share/smart_navigator/data
+running install_egg_info
+Copying ../../build/smart_navigator/smart_navigator.egg-info to /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/python3.10/site-packages/smart_navigator-0.1.0-py3.10.egg-info
+running install_scripts
+Installing decision_node script to /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/smart_navigator
+Installing input_node script to /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/smart_navigator
+Installing navigator_node script to /home/jeagerboob/smart_navigator_ws/install/smart_navigator/lib/smart_navigator
+writing list of installed files to '/home/jeagerboob/smart_navigator_ws/build/smart_navigator/install.log'

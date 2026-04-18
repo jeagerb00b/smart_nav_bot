@@ -1,0 +1,5 @@
+[console_scripts]
+decision_node = smart_navigator.decision_node:main
+input_node = smart_navigator.input_node:main
+navigator_node = smart_navigator.navigator_node:main
+
